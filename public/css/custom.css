@@ -1,0 +1,117 @@
+:root {
+    --navy: #091a38;
+    --yellow: #fcd34d;
+    --white: #ffffff;
+    --offwhite: #f8fafc;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--offwhite);
+    color: var(--navy);
+}
+
+.text-navy { color: var(--navy) !important; }
+.text-yellow { color: var(--yellow) !important; }
+.bg-navy { background-color: var(--navy) !important; }
+.bg-yellow { background-color: var(--yellow) !important; }
+.bg-offwhite { background-color: var(--offwhite) !important; }
+.border-dark { border-color: var(--navy) !important; }
+
+.btn-custom {
+    background-color: var(--yellow);
+    color: var(--navy);
+    border: 2px solid var(--navy);
+    border-radius: 50rem;
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    box-shadow: 4px 4px 0px var(--navy);
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+.btn-custom:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px var(--navy);
+    color: var(--navy);
+}
+
+.btn-outline-custom {
+    background-color: var(--white);
+    color: var(--navy);
+    border: 2px solid var(--navy);
+    border-radius: 50rem;
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    box-shadow: 4px 4px 0px var(--navy);
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+.btn-outline-custom:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px var(--navy);
+    color: var(--navy);
+}
+
+.card-custom {
+    border: 2px solid var(--navy);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    background: var(--white);
+    transition: transform 0.2s ease;
+}
+.card-custom:hover {
+    transform: translateY(-8px);
+}
+
+.card-pegang {
+    border: 2px solid var(--navy);
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.badge-sticker {
+    background-color: var(--yellow);
+    color: var(--navy);
+    border: 2px solid var(--navy);
+    font-weight: 700;
+    padding: 0.25rem 1rem;
+    transform: rotate(-3deg);
+    display: inline-block;
+    border-radius: 0.25rem;
+}
+
+.subheading {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    font-weight: 700;
+}
+
+.heading-uppercase {
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.logo-circle {
+    width: 40px;
+    height: 40px;
+    background-color: var(--navy);
+    color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+.chip {
+    border: 2px solid var(--navy);
+    border-radius: 50rem;
+    padding: 0.25rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: var(--white);
+    color: var(--navy);
+}
